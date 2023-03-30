@@ -1,0 +1,22 @@
+.tabla-etiquetas {
+  border: 1px solid #000;
+  width: 100%;
+  text-align: justify;
+}
+
+.tabla-etiquetas th, td{
+  border: 1px solid #000;
+}
+
+.tabla-etiquetas th{
+  text-align: center;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(5,1fr);
+  margin-top: 100px;
+}
+
+.definiciones{
+  margin-top: 50px;
+}
